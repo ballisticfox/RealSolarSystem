@@ -37,8 +37,8 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 
 #if CIBUILD
-[assembly: AssemblyVersion("@MAJOR@.@MINOR@.@PATCH.@BUILD@")]
-[assembly: AssemblyFileVersion("@MAJOR@.@MINOR@.@PATCH.@BUILD@")]
+[assembly: AssemblyVersion("@MAJOR@.@MINOR@.@PATCH@.@BUILD@")]
+[assembly: AssemblyFileVersion("@MAJOR@.@MINOR@.@PATCH@.@BUILD@")]
 #else
 [assembly: AssemblyVersion("18.5.0.0")]
 [assembly: AssemblyFileVersion("18.5.0.0")]
